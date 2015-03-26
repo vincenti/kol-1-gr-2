@@ -27,6 +27,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/bear.html.twig');
     }
+    /**
+     * @Route("/bad.html", name="bad")
+     */
+    public function badAction()
+    {
+        return $this->render('default/bad.html.twig');
+    }
 
     /* C */
 
