@@ -20,6 +20,13 @@ class DefaultController extends Controller
     /* A */
 
     /* B */
+    /**
+     * @Route("/bear.html", name="bear")
+     */
+    public function bearAction()
+    {
+        return $this->render('default/bear.html.twig');
+    }
 
     /* C */
 
