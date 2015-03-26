@@ -28,6 +28,13 @@ class DefaultController extends Controller
     /* E */
 
     /* F */
+    /**
+    * @Route("/fear.html", name="fear")
+    */
+    public function fearAction()
+    {
+    return $this->render('default/fear.html.twig');
+    }
 
     /* G */
 
