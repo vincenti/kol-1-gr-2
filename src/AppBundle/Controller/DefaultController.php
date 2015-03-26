@@ -31,6 +31,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/boat.html.twig');
     }
+    /**
+     * @Route("/brave.html", name="brave")
+     */
+    public function braveAction()
+    {
+        return $this->render('default/brave.html.twig');
+    }
 
     /* E */
 
