@@ -108,6 +108,14 @@ class DefaultController extends Controller
     /* M */
 
     /* N */
+    
+    /**
+    * @Route("/nothing.html", name="nothing")
+    */
+    public function  nothingAction()
+    {
+        return $this->render('default/nothing.html.twig');
+    }
 
     /* O */
 
