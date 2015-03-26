@@ -62,6 +62,14 @@ class DefaultController extends Controller
         return $this->render('default/half.html.twig');
     }
     
+    /**
+     * @Route("/haste.html", name="haste")
+     */
+    public function hasteAction()
+    {
+        return $this->render('default/haste.html.twig');
+    }
+    
     /* I */
 
     /* J */
