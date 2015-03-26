@@ -1,4 +1,4 @@
-NEW PROJECT
-===========
+Kolokwium 1, grupa 1
+====================
 
 
