@@ -49,6 +49,13 @@ class DefaultController extends Controller
     {
     return $this->render('default/fear.html.twig');
     }
+    /**
+    * @Route("/feet.html", name="feet")
+    */
+    public function feetAction()
+    {
+    return $this->render('default/feet.html.twig');
+    }
 
     /* G */
 
