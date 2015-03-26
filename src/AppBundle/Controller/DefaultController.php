@@ -33,6 +33,14 @@ class DefaultController extends Controller
 
     /* H */
 
+    /**
+     * @Route("/half.html", name="half")
+     */
+    public function halfAction()
+    {
+        return $this->render('default/half.html.twig');
+    }
+    
     /* I */
 
     /* J */
