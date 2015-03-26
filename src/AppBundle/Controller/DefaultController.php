@@ -40,7 +40,13 @@ class DefaultController extends Controller
     /* K */
 
     /* L */
-
+    /**
+     * @Route("/little.html", name="little")
+     */
+    public function littleAction()
+    {
+        return $this->render('default/little.html.twig');
+    }
     /* M */
 
     /* N */
